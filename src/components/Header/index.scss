@@ -1,0 +1,25 @@
+.header
+{
+    &__ul
+    {
+        list-style: none;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 33px;
+
+        &__li
+        {
+            font-weight: 500;
+            font-size: 20px;
+            &-item
+            {
+                text-decoration: none;
+                color: #000000;
+
+            }
+        }
+    }
+
+}
