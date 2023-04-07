@@ -36,6 +36,12 @@
         background: #FF6464;
         border-radius: 2px;
         border: none;
+        transition: 0.4s;
+
+        &:hover
+        {
+            background: #ff6464a4;
+        }
     }
 }
 
@@ -88,4 +94,194 @@
         line-height: 60px;
         color: #21243D;
     }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .card
+    {
+        margin-top: 75px;
+        background: #EDF7FA;
+        height: 510px;
+
+        &__link
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            
+
+            h3
+            {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 60px;
+                color: #21243D;
+            }
+
+            a
+            {
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #00A8CC;
+            }
+        }
+
+        &__flex
+        {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+
+}
+
+
+
+@media only screen and (max-width: 428px) {
+
+    .main__flex
+    {
+        margin-top: 33px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        &__wrapper
+        {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+
+            &--title
+            {
+                margin-top: 34px;
+                text-align: center;
+                width: 312px;
+            }
+
+            &--text
+            {
+                width: 328px;
+                text-align: center;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #21243D;
+            }
+
+        }
+
+        &--btn
+        {
+            margin: 27px 0 0 86px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 20px;
+            padding: 9px 20px;
+            color: #FFFFFF;
+            background: #FF6464;
+            border-radius: 2px;
+            border: none;
+        }
+    }
+
+
+    .card
+    {
+        margin-top: 75px;
+        background: #EDF7FA;
+        height: 690px;
+
+        &__link
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h3
+            {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 60px;
+                color: #21243D;
+            }
+
+            a
+            {
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #00A8CC;
+            }
+        }
+
+        &__flex
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+}
+
+
+
+@media only screen and (max-width: 375px) {
+
+    .card
+    {
+        margin-top: 75px;
+        background: #EDF7FA;
+        height: 800px;
+
+        &__link
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h3
+            {
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 60px;
+                color: #21243D;
+            }
+
+            a
+            {
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #00A8CC;
+            }
+        }
+
+        &__flex
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+    .main__flex--btn
+    {
+        margin-left: 45px;
+    }
+
+
 }

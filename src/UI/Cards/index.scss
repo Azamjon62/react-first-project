@@ -49,3 +49,64 @@
         }
     }
 }
+
+
+
+@media only screen and (max-width: 428px) {
+
+    .card__wrapper
+    {
+        margin-top: 22px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+
+        &__flex
+        {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            &--title
+            {
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 44px;
+                color: #21243D;
+
+            }
+
+            &__flex
+            {
+                display: flex;
+                align-items: center;
+                gap: 26px;
+
+                span
+                {
+                    padding: 0 10px;
+                    background: #142850;
+                    border-radius: 16px;
+                    color: #fff;
+                }
+
+                p
+                {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 29px;
+                    color: #8695A4;
+                }
+            }
+
+            &__description
+            {
+                line-height: 24px;
+                color: #21243D;
+            }
+        }
+    }
+
+
+
+}

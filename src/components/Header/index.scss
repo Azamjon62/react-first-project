@@ -13,13 +13,100 @@
         {
             font-weight: 500;
             font-size: 20px;
+
+
+
             &-item
             {
                 text-decoration: none;
                 color: #000000;
+                transition: 0.4s;
+
+                &:hover
+                {
+                    color: #00000084;
+                }
 
             }
         }
+
+        &__toggle
+        {
+            display: none;
+        }
     }
 
+}
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+
+    .header
+    {
+        &__ul
+        {
+            list-style: none;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 33px;
+
+            &__li
+            {
+                display: none;
+                font-weight: 500;
+                font-size: 20px;
+                &-item
+                {
+                    text-decoration: none;
+                    color: #000000;
+
+                }
+            }
+
+            &__toggle
+            {
+                display: block;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 428px) {
+
+    .header
+    {
+        &__ul
+        {
+            list-style: none;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 33px;
+
+            &__li
+            {
+                display: none;
+                font-weight: 500;
+                font-size: 20px;
+                &-item
+                {
+                    text-decoration: none;
+                    color: #000000;
+
+                }
+            }
+
+            &__toggle
+            {
+                display: block;
+            }
+        }
+    }
 }
